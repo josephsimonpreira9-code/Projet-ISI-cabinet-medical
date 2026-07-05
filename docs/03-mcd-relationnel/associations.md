@@ -24,3 +24,16 @@
 - Cardinalités : ORDONNANCE (1,n) — MEDICAMENT (0,n)
 - Une ordonnance contient au moins un médicament ; un médicament peut figurer sur plusieurs ordonnances.
 - Attributs portés par l'association (posologie) : NB_PRISES, NB_DOSES_PAR_PRISE, FREQUENCE_JOURNALIERE, DUREE_TRAITEMENT
+## SOUFFRE_DE (PATIENT — MALADIE)
+- Cardinalités : PATIENT (0,n) — MALADIE (0,n)
+- Un patient peut souffrir de plusieurs maladies ; une maladie peut toucher plusieurs patients.
+- Association many-to-many.
+
+## EST_ALLERGIQUE_A (PATIENT — ALLERGIE)
+- Cardinalités : PATIENT (0,n) — ALLERGIE (0,n)
+- Un patient peut avoir plusieurs allergies ; une allergie peut concerner plusieurs patients.
+- Association many-to-many.
+
+## EFFECTUE_SEJOUR (PATIENT — SEJOUR)
+- Cardinalités : PATIENT (0,n) — SEJOUR (1,1)
+- Un patient peut avoir plusieurs séjours ; un séjour concerne un seul patient.
