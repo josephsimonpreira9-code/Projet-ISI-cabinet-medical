@@ -30,7 +30,21 @@
 - NUM_DEMANDE : Numéro demande d'analyse — Numérique — Identifiant
 - DATE_DEMANDE : Date de la demande — Date
 - RESULTAT_RECU : Résultat reçu (oui/non) — Booléen
+## MALADIE
+- NUM_MALADIE : Identifiant maladie — Numérique — Identifiant
+- NOM_MALADIE : Nom de la maladie — Texte
+- DESCRIPTION : Description — Texte
 
+## ALLERGIE
+- NUM_ALLERGIE : Identifiant allergie — Numérique — Identifiant
+- LIBELLE_ALLERGIE : Médicament ou famille concernée — Texte
+
+## SEJOUR
+- NUM_SEJOUR : Identifiant séjour — Numérique — Identifiant
+- NOM_CENTRE : Nom du centre de santé — Texte
+- DATE_DEBUT : Date de début — Date
+- DATE_FIN : Date de fin — Date
+- OPERATION : Opération(s) subie(s) — Texte
 ## MEDICAMENT
 - NUM_MEDICAMENT : Numéro médicament — Numérique — Identifiant
 - NOM_MEDICAMENT : Nom du médicament — Texte
